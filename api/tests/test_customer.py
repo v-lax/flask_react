@@ -30,8 +30,8 @@ def test_add(client):
 
 #the following function are for each different search query scenario. I kept going in 
 #circles trying to figure out how to handle all these different scenarios but wasn't able 
-#to figure it out so, created a separate function for each scenario. Would love to learn about
-#how to handle this type of situation
+#to figure it out so, created a separate function for each scenario. After doing some research
+#I may use a parameterized test in pytest (or a test that allows me to run a test against multiple sets of arguments)
 def test_state_search(client):
   response = client.get('/search?state=MA').data 
   data = json.loads((response))
