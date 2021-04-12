@@ -23,6 +23,7 @@ The following is a list of all the different technologies used on this project.
 * Python Flask
 * pytest for testing
 * React for the frontend
+* Postman for testing routes 
 
 Here are some of the reasons I used these technologies. Lets start with flask. Why did I decide to use flask rather than another python framework like Django. Well the main reason was because flask is used at andGo, and I wanted to 
 learn up on a new piece of technology that I potentially could use. I choose pytest for one main reason! The tutorial 

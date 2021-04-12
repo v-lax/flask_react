@@ -1,3 +1,5 @@
+#code that allows us install our application factory so that we can use it globally.
+
 from setuptools import find_packages, setup
 
 setup(
