@@ -14,7 +14,7 @@ The user can filter through the customers in the datbase by City, State, City an
 
 Overall this was a really fun project. In my experience I have only used Express, Node, MySQL/Mongo DB to write my backend code. I never used python to write this code before but using the flask framework was intuitive and the resources were abundant. My testing experience (only running test on super simple functions that introduce the topic of testing using mocha js.). I also went a little against protocol and started to build out a little bit of the front
 end using react as well. It just allows you add a customer throug form. Nothing to robust as I also needed to write
-the tests for this front end code but never got to it. But it was an awesome learning experience in understanding how to test api endpoints as well! Lot of improvements 
+the tests for this front end code but never got to it. But it was an awesome learning experience in understanding how to test api endpoints as well! Lot of improvements to be made going forward.
 
 # Technologies
 
@@ -26,8 +26,7 @@ The following is a list of all the different technologies used on this project.
 
 Here are some of the reasons I used these technologies. Lets start with flask. Why did I decide to use flask rather than another python framework like Django. Well the main reason was because flask is used at andGo, and I wanted to 
 learn up on a new piece of technology that I potentially could use. I choose pytest for one main reason! The tutorial 
-that i used to learn flask used pytest for its unit testing! But I do know that there are some pluses and minuses for 
-both pytest and unittest. Pytest can allow us to run multiple tests in parallel. It can detect all of our test files and test functions automatically and provides us with simple syntax. I installed react because i wanted to try my hand and build out a little bit of front end. I built out a simple add customer button that posted form data from local host 3000 to our server which was running on local host 5000. 
+that i used to learn flask used pytest for its unit testing! But I do know that there are some benefits to using pytest. Pytest can allow us to run multiple tests in parallel. It can detect all of our test files and test functions automatically and provides us with simple syntax. I installed react because i wanted to try my hand and build out a little bit of front end. I built out a simple add customer button that posted form data from local host 3000 to our server which was running on local host 5000. 
 
 If you want to take a look at the front end code you can do so -> https://github.com/v-lax/flask_react
 
@@ -37,7 +36,7 @@ There are a lot of different things that I would come back and improve next time
 
 * Improve the search query functionality. The api can currently handle 6 different types of searches but for more complicated versions, I would want to think long and hard about what the front end would like and what could be entered in by the user to then build out more robust search query function. 
 
-* In my tests, I wrote 6 different test functions (one for each search query). Why did I do this? I didn't know how to handle all of these search parameters in one test function. But I came across pytest's capability to do a parameterized test! 
+* In my tests, I wrote 6 different test functions (one for each search query). Why did I do this? I didn't know how to handle all of these search parameters in one test function. But I came across pytest's capability to do a parameterized test, and would use that to refactor those 6 test functions mentioned above.
 
 * My test are pretty simple. I wouuld come back and potentially add more assertions that deal with edge cases for my endpoints. Kind of going off this, I would also love to learn how I could deploy these tests into a build server of some kind so that when we push code, this code automatically gets tested and the developer gets sent an email with said results of that test. This is mostly because my ci/cd experience is minimal but I would love to learn more about that.
 
