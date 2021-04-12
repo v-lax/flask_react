@@ -29,7 +29,7 @@ learn up on a new piece of technology that I potentially could use. I choose pyt
 that i used to learn flask used pytest for its unit testing! But I do know that there are some pluses and minuses for 
 both pytest and unittest. Pytest can allow us to run multiple tests in parallel. It can detect all of our test files and test functions automatically and provides us with simple syntax. I installed react because i wanted to try my hand and build out a little bit of front end. I built out a simple add customer button that posted form data from local host 3000 to our server which was running on local host 5000. 
 
-If you want to take a look at the front end code you can do so -> 
+If you want to take a look at the front end code you can do so -> https://github.com/v-lax/flask_react
 
 # Improvements 
 
